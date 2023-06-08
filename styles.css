@@ -33,7 +33,7 @@ h3{
     width:100%;
     height:auto;
     top:0;
-    position:sticky;
+   
     z-index:100;
     display: flex;
     justify-content: center;
@@ -309,12 +309,31 @@ h3{
 @media only screen and (max-width: 500px){
     .nav-heading{
         flex-direction: column;
-        gap:0.5rem;
+        gap:2px;
         font-size:15px;
     }
 
+    .img-one{
+        justify-content:center;
+    }
+
+    .text-transparent-div{
+        width: 80%;
+    }
+
+    .head-text{
+        font-size:1rem;
+      }
+        .dummy-history{
+            font-size:11px;
+              }
+
     .item-div{
         width:70%;
+    }
+
+    .dummy-history{
+        width:90%;
     }
 
     .part-two-heading h1{
